@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="8444400971e57987c6012cf626879b24bdff9f634d0fbc62eff5324b73280f09.html">Create A Meeting In Startsharp</a></span>
+                > <span class="truncate-60"><a
+                    href="784701f585cf3a38a74bc2e20b8c5892ad3b65d43c43f8a5951904c6d48abc1f.html">validate empty field </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-05-2022 14:29</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create A Meeting In Startsharp </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to create a meeting in platform StartSharp
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0218fdbc5052f69d3f1f3166bb7e2fb1aaba25c78a7c7745c14ed1ccd35fa8dc.html">Scenario2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">validate empty field
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given that an user want to login in StartSharp<br>When the user insert the information of the meeting<br><table class='embedded'><thead><th>strNameBUnits</th><th>strMeetingName</th><th>strMeetingNumber</th><th>strStartDate</th><th>strEndDate</th><th>strUnit</th></thead><tbody><tr><td>&lt;strNameBUnits&gt;</td><td>&lt;strMeetingName&gt;</td><td>&lt;strMeetingNumber&gt;</td><td>&lt;strStartDate&gt;</td><td>&lt;strEndDate&gt;</td><td>&lt;strUnit&gt;</td></tr></tbody></table><br>Then it show error<br><table class='embedded'><tbody><tr><td>strNameMeeting</td></tr><tr><td>&lt;strNameMeeting&gt;</td></tr></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="07dfd09f8cba94c6a86aec107d80d5ac07d4ceef11040ecca9b9c0681e1dac96.png" title=" Example: {strNameBUnits=FirstUnits, strMeetingName=, strMeetingNumber=20001, strStartDate=05/20/2022, strEndDate=05/21/2022}" width="1366"/>
+                <img src="07dfd09f8cba94c6a86aec107d80d5ac07d4ceef11040ecca9b9c0681e1dac96.png" title=" Given that an user want to login in StartSharp" width="1366"/>
+                <img src="07dfd09f8cba94c6a86aec107d80d5ac07d4ceef11040ecca9b9c0681e1dac96.png" title=" User open up page" width="1366"/>
+                <img src="07dfd09f8cba94c6a86aec107d80d5ac07d4ceef11040ecca9b9c0681e1dac96.png" title=" user opens the Open page" width="1366"/>
+                <img src="07dfd09f8cba94c6a86aec107d80d5ac07d4ceef11040ecca9b9c0681e1dac96.png" title=" User open up page (completed)" width="1366"/>
+                <img src="07dfd09f8cba94c6a86aec107d80d5ac07d4ceef11040ecca9b9c0681e1dac96.png" title=" Given that an user want to login in StartSharp (completed)" width="1366"/>
+                <img src="21a4aac4a475f245c46377729fdd25d1de289053c4027aa364e61716ebe5aae0.png" title=" When the user insert the information of the meeting
+| strNameBUnits | strMeetingName | strMeetingNumber | strStartDate | strEndDate | strUnit |
+| FirstUnits |  | 20001 | 05/20/2022 | 05/21/2022 | &lt;strUnit&gt; |" width="1366"/>
+                <img src="21a4aac4a475f245c46377729fdd25d1de289053c4027aa364e61716ebe5aae0.png" title=" User create meeting" width="1366"/>
+                <img src="21a4aac4a475f245c46377729fdd25d1de289053c4027aa364e61716ebe5aae0.png" title=" user clicks on Button for login" width="1366"/>
+                <img src="b1f9bb0bab206791f4198bd454b98db8a33e4b8f7b0c372b0de3e05b179a7527.png" title=" user clicks on Select option organization" width="1366"/>
+                <img src="75b5e806554152bda9bb14e2a1b052d5986918166307da166234383b4e875e7a.png" title=" user clicks on Select option business units" width="1366"/>
+                <img src="1137c4b47120a3edb19cfe7ca4d765389869e29f35be7cba709ce2bacc2f7651.png" title=" user clicks on Select new business units" width="1366"/>
+                <img src="2639ae3c928d6b8c73012b013b8a6d68a6412e286b1785b2c566bdc6162243fd.png" title=" user enters 'FirstUnits' into Insert name business units" width="1366"/>
+                <img src="5cd766029d77b26c0b9fcdef71238531240a1bd3d97a263698994d3974cb070d.png" title=" user clicks on Select parent unit" width="1366"/>
+                <img src="a0c94e42e0d63c74c61fc93c6143688c34cc854036cbc29dfc5448d29fb583b0.png" title=" user clicks on Select option parent unit" width="1366"/>
+                <img src="52ab31fca52e9b0564a20c24c7e3692ef63fa27f809240f7bb301826546c1316.png" title=" user clicks on Save business units" width="1366"/>
+                <img src="5cca0b3691e26202273bdb22c82b8048829a4fc9e46271a6cb5f15cd1bc9af02.png" title=" user clicks on Select option meeting" width="1366"/>
+                <img src="0263a9b96ac94ed6fec3c10e906d2d8271c1a258cc608af7d63e38487aac55e8.png" title=" user clicks on Select option meetings" width="1366"/>
+                <img src="10c6a2f4555d5f133f64cc04d5fdc1a4685832209456e86e5df5d416369fdffe.png" title=" user clicks on Select option new meeting" width="1366"/>
+                <img src="0e988c3102dd4bf79995ede157132c7a0a237b0ec55e236f678f4eb1f2496691.png" title=" user enters '' into Enter meeting name" width="1366"/>
+                <img src="5e5c497a8bc41bf7fb45c0281cad3207d5e5648cc27aaa8398e885413576e9f1.png" title=" user clicks on Select meeting type" width="1366"/>
+                <img src="4629cbc761d590f4119a272fa5d5212ddf5a813864b8e7b020abd1b9df9c7b3f.png" title=" user clicks on Select option meeting type" width="1366"/>
+                <img src="4ed69b0f14ea10cab270ba7c789c557080b14b5dd09949724e78bf87ee1d3ec6.png" title=" user enters '20001' into Enter meeting number" width="1366"/>
+                <img src="0c5db09050923a645e4c18f3949db0e04ea1dcfd273ffb9244d85f94fbb2f108.png" title=" user enters '05/20/2022' into Enter start date meeting" width="1366"/>
+                <img src="c144f5f7a172f80d4a9b31da7f7b5d4163bef99b9e5598df6e9ce7aade2905ad.png" title=" user clicks on Enter start time meeting" width="1366"/>
+                <img src="cde7e1cf780cd2f831e860c22da1d68a4ab15de5fb1849f0b9ca8ca189b2e457.png" title=" user enters '05/21/2022' into Enter end date meeting" width="1366"/>
+                <img src="9b60623187ef5d9454b269ef6da7a55f56cdcc3d104a868d18a8eba44f3a6380.png" title=" user clicks on Enter start time meeting" width="1366"/>
+                <img src="752e5ce2e0cdf463a2c6131ee0ccac52185cd5d9dd496c6d9144b0084b9e41a8.png" title=" user clicks on Select location" width="1366"/>
+                <img src="d753a5bafec9bcebba63bdc451fb4828cf89034c12c9b4be7a5816f3ba5391d5.png" title=" user clicks on Select option location" width="1366"/>
+                <img src="6bf409e6641af3c91db612186cf4dfc560cf07a1939768968d8e00898e46baf8.png" title=" user clicks on Select unit" width="1366"/>
+                <img src="86ea02bf2c6e0ea567fa993d077b0ff9641fc524b18b564f186ea5e81a2afbda.png" title=" user clicks on Select option unit" width="1366"/>
+                <img src="518ea51129ece5c1537e17e032a7e28b9d29320a781aa6a50279f4ab1cedae4a.png" title=" user clicks on Select organized by" width="1366"/>
+                <img src="92d5095f0e0c4a33e5cb86898b762da068cc8ea66ea497cd9f6f82e8a123dc93.png" title=" user clicks on Select the organizer option" width="1366"/>
+                <img src="5c608a7a639450267d124b84bf726f9d8bba36237b1e3224588b101be21e97a5.png" title=" user clicks on Select reporter" width="1366"/>
+                <img src="0555a2b4060e235fb6e56e85a909474f35b14213a97d9a3437123031d8990e11.png" title=" user clicks on Select the reporter option" width="1366"/>
+                <img src="eeb4e5832ad211993ca302923c245e12a8b9d7a79d46f337b936da2c636f286b.png" title=" user clicks on Select save meeting" width="1366"/>
+                <img src="eeb4e5832ad211993ca302923c245e12a8b9d7a79d46f337b936da2c636f286b.png" title=" User create meeting (completed)" width="1366"/>
+                <img src="34132bd4e228d48f0f6a8e7f07dec53ab20ec09cedeed60695b7098d610eb743.png" title=" When the user insert the information of the meeting
+| strNameBUnits | strMeetingName | strMeetingNumber | strStartDate | strEndDate | strUnit |
+| FirstUnits |  | 20001 | 05/20/2022 | 05/21/2022 | &lt;strUnit&gt; | (completed)" width="1366"/>
+                <img src="34132bd4e228d48f0f6a8e7f07dec53ab20ec09cedeed60695b7098d610eb743.png" title=" Then it show error
+| strNameMeeting |
+| &lt;strNameMeeting&gt; |" width="1366"/>
+                <img src="34132bd4e228d48f0f6a8e7f07dec53ab20ec09cedeed60695b7098d610eb743.png" title=" Then answer two" width="1366"/>
+                <img src="34132bd4e228d48f0f6a8e7f07dec53ab20ec09cedeed60695b7098d610eb743.png" title=" Then it show error
+| strNameMeeting |
+| &lt;strNameMeeting&gt; | (completed)" width="1366"/>
+                <img src="34132bd4e228d48f0f6a8e7f07dec53ab20ec09cedeed60695b7098d610eb743.png" title=" Example: {strNameBUnits=FirstUnits, strMeetingName=, strMeetingNumber=20001, strStartDate=05/20/2022, strEndDate=05/21/2022} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
